@@ -1,0 +1,17 @@
+body {
+    background-color: azure;
+}
+
+.container {
+    width: 800px;
+    height: 650px;
+    border: 1px solid green;
+}
+
+.bubble {
+    width: 0px;
+    height: 0px;
+    border: 1px solid;
+    border-radius : 100%;
+    position: absolute;
+}

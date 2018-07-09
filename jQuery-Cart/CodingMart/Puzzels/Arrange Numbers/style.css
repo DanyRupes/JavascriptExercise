@@ -1,0 +1,19 @@
+body {
+    /* background-color: aqua; */
+}
+
+.row {
+ 
+    width: 400px;
+    height: 480px;
+    margin: auto;
+    border: 1px solid gold;
+}
+
+.box {
+    display: inline-grid;
+    width: 128px;
+    height: 131px;
+    border: 1px solid;
+    /* background-color: darkgray; */
+}

@@ -1,0 +1,82 @@
+#select .ui-selecting {
+    background: aqua;
+    }
+#select .ui-selected { 
+    background: yellow; 
+    color: green; 
+    }
+.animateMe{
+width: 90px;
+height: 90px;
+border: 2px solid gold;
+background-color: black;
+margin: auto;
+margin-top: 20%;
+}
+.playGround {
+width: 100%;
+height: 100%;
+margin: auto;
+display: grid;
+align-content: center;
+justify-content: center;
+/* background-color: blueviolet; */
+height  :-webkit-fill-available;
+}
+#content {
+width: 100px;
+height: 100px;
+display: none;
+border: 1px solid tomato;
+}
+#title{
+width: 100px;
+font-size: 20px;
+height: 100px;
+border: 1px solid tomato;
+}
+#panel {
+width: 300px;
+height: auto;
+background-color: hotpink;
+}
+#select { 
+list-style-type: none; 
+margin: 0; 
+padding: 0; 
+width: 50%; 
+}
+#select li { 
+margin: 3px; 
+padding: 10px; 
+font-size: 1.4em; 
+height: 18px; 
+}
+#grid .ui-selecting { 
+    background: aqua;
+    }
+#grid .ui-selected { 
+background: yellow; 
+color: green; 
+}
+#grid { 
+list-style-type: none; 
+margin: 0; 
+padding: 0; 
+width: 450px; 
+}
+#grid li { 
+margin: 3px; 
+padding: 1px; 
+float: left; 
+width: 50px; 
+height: 50px; 
+font-size: 2.5em; 
+text-align: center; 
+}
+
+#subChart{
+    display: block;
+    width: 441px !important;
+    height: 620px !important;
+}

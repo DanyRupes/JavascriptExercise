@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+ $("#panel ").hide();
+  $("#panel1").hide();
+   $("#panel2").hide();
+   
+    $("#flip").mouseover(function(){
+     $("#panel ").slideDown(1000);
+ 	 $("#panel1").fadeIn(3000);
+   	$("#panel2").fadeIn(3100);
+       	$("#img").fadeIn(2100);
+
+        $("#panel ").slideDown(300);
+    });
+        $("#flip").mouseout(function(){
+         $("#panel").slideUp(100);
+        // $("#panel").slideUp(1000);
+         $("#panel1").fadeOut(1000);
+ 		$("#panel2").fadeOut(600);
+        $("#panel2").hide();
+        $("#img").fadeOut(100);
+    });
+});
+</script>
+ 
+<style> 
+#panel, #flip {
+margin-top : 00px;
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+  background-color: orange;
+    padding: 50px;
+   
+}
+#panel1 {
+position: relative;
+    width: 100%;
+    background-color: white;
+    padding: 10px 0px 10px 0px;
+   
+}
+#panel2 {
+  background-color: green;
+    padding: 50px;
+   
+}
+img {
+    position: initial;
+    margin-left: 610px;
+    width: 120px;
+    height: 100px;
+}
+</style>
+</head>
+<body>
+ 
+<div id="flip">Click to slide down panel</div>
+
+<div id="panel"></div>
+<div id="panel1">
+<img src="https://thumbs.dreamstime.com/b/india-flag-ashok-chakra-flower-leaves-stylized-indian-representation-center-green-saffron-flowers-all-around-96500171.jpg" id="img"></div>
+<div id="panel2">
+</div>
+
+</body>
+</html>
